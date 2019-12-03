@@ -3,3 +3,138 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.dot {
+  border-style: dotted;
+  border-color: #6feff9;
+  border-width: 1px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+
+.dots {
+  border-style: dotted;
+  border-color: #6feff9;
+  border-width: 1px;
+  border-top: 0;
+  border-right: 0;
+  filter: drop-shadow(2px 2px 5px #6feff9);
+}
+
+.btn {
+  color: #6feff9;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.stars {
+  color: #ffd31d;
+}
+
+.alert {
+  color: #f62e52;
+  animation: pulse 1500ms linear infinite;
+  transform-origin: 680.942px 1346.168px;
+}
+
+@keyframes pulse {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+i {
+  filter: drop-shadow(2px 2px 5px #6feff9);
+}
+
+.darker {
+  animation: bubbles 500ms linear infinite;
+}
+
+@keyframes bubbles {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: .5;
+  }
+
+}
+
+.lighter {
+  animation: bubbles-2 500ms linear infinite;
+}
+
+@keyframes bubbles-2 {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .6;
+  }
+
+  100% {
+    opacity: .3;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .thing-1 {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #6feff9;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .thing-2 {
+    border-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .thing-3 {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #6feff9;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .thing-4 {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #6feff9;
+    border-top: 0;
+    border-right: 0;
+  }
+
+}
